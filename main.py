@@ -6,8 +6,8 @@ Chương trình này chỉ dùng để học thuật toán, kiểm thử và min
 Phần lõi md5() tự thực hiện thuật toán; hashlib chỉ được gọi trong self_test()
 để đối chiếu kết quả, không dùng để tạo digest trong chức năng chính.
 """
-
 from __future__ import annotations
+
 
 import hashlib  # Chỉ dùng trong self_test(), không dùng trong lõi MD5.
 import hmac
